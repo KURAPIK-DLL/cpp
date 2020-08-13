@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/KURAPIKA.dll/Desktop/projet/c++/first/main.cpp
+iostream
+-
+point.h
+C:/Users/KURAPIKA.dll/Desktop/projet/c++/first/point.h
+
+C:/Users/KURAPIKA.dll/Desktop/projet/c++/first/point.cpp
+point.h
+C:/Users/KURAPIKA.dll/Desktop/projet/c++/first/point.h
+
+C:/Users/KURAPIKA.dll/Desktop/projet/c++/first/point.h
+iostream
+-
+string
+-
+
