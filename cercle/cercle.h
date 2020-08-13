@@ -16,16 +16,17 @@ public:
     cercle(int x , int y , int r);
     ~cercle();
 
-    void getx();
-    void gety();
-    void getr();
+    int getx();
+    int gety();
+    int getr();
 
-    int setx(int a);
-    int sety(int b);
-    int setr(int a,int b);
-    double surface() const;
 
-    bool isIn(double a,double b);
+
+   void setcentre(int a , int b);
+   void setr(int a);
+   double surface() const;
+
+   bool isIn(double a,double b);
 
 
 
